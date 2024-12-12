@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>||SPOTIFY CLONE||</title>
+    <link rel="icon" type="image/png" href="./IMG/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="close invert">
+                <img src="./IMG/close.svg" alt="">
+            </div>
+            <div class="home">
+                <div class="logo">
+                    <img class="invert" src="./IMG/logo.svg" alt="logo">
+                </div>
+                <ul>
+                    <li><img class="invert" src="./IMG/home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="./IMG/search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+            <div class="library">
+                <div class="heading">
+                    <img class="invert" src="./IMG/playlist.svg" alt="playlist">
+                    <h2>Your Library</h2>
+                </div>
+
+                <div class="songlists">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/privacy/"><span>Privacy center</span></a></div>
+                    <div><a href="https://www.spotify.com/privacy-policy/"><span>Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/privacy-policy/"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerCont">
+                        <img class="invert hamburger" src="./IMG/hamburger.svg" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="button">
+                    <button>Sing up</button>
+                    <button>Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div data-folder="ncs" class="card">
+                        <div class="play">
+                             <svg width="24" height="24" viewBox="0 0 20 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M5 20V4L19 12L5 20Z" fill="#000" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                             </svg>
+                         </div>
+                         <img src="./IMG/1.png" alt="">
+                         <h2>Dogger X Baller</h2>
+                         <p>Wokes For Mood Changer</p>
+                     </div>
+
+                     <div data-folder="cs" class="card">
+                        <div class="play">
+                             <svg width="24" height="24" viewBox="0 0 20 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M5 20V4L19 12L5 20Z" fill="#000" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                             </svg>
+                         </div>
+                         <img src="./IMG/2.png" alt="">
+                         <h2>Highlight Ever!</h2>
+                         <p>Let's Begin Glory</p>
+                     </div>
+
+                     <div data-folder="Attitude" class="card">
+                        <div class="play">
+                             <svg width="24" height="24" viewBox="0 0 20 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M5 20V4L19 12L5 20Z" fill="#000" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                             </svg>
+                         </div>
+                         <img id="img3" src="./IMG/atu.jpg" alt="">
+                         <h2>Attitude Songs!</h2>
+                         <p>Glory Your Way</p>
+                     </div>`
+
+
+                </div>
+                <div class="playBar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbutton">
+                            <img width="28px" id="previous" src="./IMG/prevsong.svg" alt="prevsong">
+                            <img width="28px" id="play" src="./IMG/play.svg" alt="play">
+                            <img width="28px" id="next" src="./IMG/nextsong.svg" alt="next">
+                        </div>
+                        <div class="timevol">
+
+                            <div class="songtime">
+
+                            </div>
+                            <div class="volume">
+                                <img width="25px" src="./IMG/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
